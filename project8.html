@@ -3,51 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>grid images</title>
     <style>
         .container{
             display: grid;
-            grid-column: 34% 34% 34%;
+            grid-template-columns:19% 19% 19%;
+            gap:0px;
         }
         .imagepart1{
             display: grid;
-            grid-template-columns:70% 30% ;
+            grid-template-columns:30% 30% ;
         }
         .imagepart2{
             display: grid;
-            grid-template-columns:30% 70% ;   
+            grid-template-columns:30% 30% ;
         }
         .imagepart3{
             
             display: grid;
-            grid-template-columns:70% 30% ;  
+            grid-template-columns:30% 30% ; 
+        } 
+        .image1{
+            width:230px;
+            height:370px;
+        }
+        .image2{
+            width:230px;
+            height:220px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="imagepart1">
-            <div class="image1">
-                <img src="./images/download.jpg">
+            <div>
+                <img src="./images/download (2).jpg" class="image1">
             </div>
-            <div class="image2">
-                <img src="./images/download.jpg">
+            <br>
+            <div>
+                <img src="./images/download (1).jpg" class="image2">
             </div>
         </div>
+        <!-- <br> -->
         <div class="imagepart2">
-            <div class="image3">
-                <img src="./images/download.jpg">
+            <div>
+                <img src="./images/download.jpg " class="image2">
             </div>
-            <div class="image4">
-                <img src="./images/download.jpg">
+            <br>
+            <div>
+                <img src="./images/images (1).jpg" class="image1">
             </div>
         </div>
+        <!-- <br> -->
         <div class="imagepart3">
-            <div class="image5">
-                <img src="./images/download.jpg">
+            <div>
+                <img src="./images/images (2).jpg" class="image1">
             </div>
-            <div class="image6">
-                <img src="./images/download.jpg">
+            <br>
+            <div>
+                <img src="./images/images.jpg" class="image2">
             </div>
         </div>
 
