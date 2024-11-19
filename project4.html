@@ -7,24 +7,47 @@
     <style>
         .container{
             width: 599px;
-            height: 550px;
+            height: 510px;
             border:2px solid black;
             border-radius: 25px;
             text-align: center;
         }
-         .ash{
+         .subtitle{
             color: rgb(180, 177, 177);
             font-size: small;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; */
+        }
+        .ash{
+            color:rgb(180, 177, 177) ;
+        }
+        #verticle-line{
+            width:5px;
+            background-color: black;
+            height:500px;
+            margin: 200px;
+        }
+        .container1{
+            display: grid;
+grid-template-columns: 30% 60%;
+        }
+        button{
+            width:200px;
+            height:40px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .para{
+            text-align: left;
         }
     </style>
 </head>
 <body>
     <div class="container">
     <h1>Changelog</h1>
-    <p class="ash">Here's everything we have shipped in the past few days</p>
-    <div class="container">
-        <div>
+    <p class="subtitle">Here's everything we have shipped in the past few days</p>
+    <div class="container1">
+        <div class="date">
     <p class="ash">September 3,2024</p>
     <p class="ash">August 28,2024</p>
     <p class="ash">August 25,2024</p>
@@ -33,12 +56,20 @@
     <p class="ash">August 10,2024</p>
     <p class="ash">August 1,2024</p>
         </div>
-        <div>
+        
+        <div class="para">
             <p>Announcing Projects on Frontend Roadmap</p>
             <p>Build your learning habits with learning streaks</p>
-            <p>Git Github</p>
+            <p>Git and Github Roadmap</p>
+            <p>Submit your project solution and get feedback</p>
+            <p>Backend Project Ideas</p>
+            <p>Redis roadmap</p>
+            <p>Changelog page to help you stay in the loop</p>
         </div>
     </div>
+    <br>
+
+    <button>Visit Complete Changelog</button>
     </div>
 </body>
 </html>
